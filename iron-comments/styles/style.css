@@ -1,11 +1,37 @@
+:root {
+    --darkBlue: rgb(25, 33, 41);
+    --blue: rgb(67, 163, 230);
+    --Text: rgb(255,255,255);
+}
+
 body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
-
+background-color: var(--darkBlue);
+color: var(--Text);
 }
+
+
 
 #form-container {
     margin: auto;
+    width: 250px;
+    border: 1px solid rgb(67, 163, 230) ;
+    padding: 30px;
+}
+
+#comment {
+    height: 100px;
+}
+.btn {
+    background-color: var(--blue);
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.inputField {
+    border: 1px solid rgb(67, 163, 230) ;
 }
